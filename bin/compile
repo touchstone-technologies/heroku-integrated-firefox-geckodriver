@@ -77,6 +77,7 @@ case "$STACK" in
       libasound2	
       libatk1.0-0	
       libatk-bridge2.0-0	
+      libc6
       libcairo-gobject2	
       libgconf-2-4	
       libgtk-3-0	
