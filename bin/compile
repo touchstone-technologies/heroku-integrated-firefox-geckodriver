@@ -71,7 +71,7 @@ BUILDPACK_GECKODRIVER_PACKAGE="https://github.com/mozilla/geckodriver/releases/d
 
 # Install correct dependencies according to $STACK	
 case "$STACK" in	
-  "heroku-16" | "heroku-18" | "heroku-20")	
+  "heroku-16" | "heroku-18" | "heroku-20" | "heroku-22" | "heroku-24")	
     PACKAGES="	
       libappindicator1	
       libasound2	
